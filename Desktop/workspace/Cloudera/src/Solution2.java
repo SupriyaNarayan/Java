@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-//Evaluation of Postfix expression
+//Evaluation of Postfix expression for a given String
 public class Solution2 {
 
 	public static int solution(String S) {
@@ -54,7 +54,6 @@ public class Solution2 {
 	}
 
 	public static void main(String[] args) {
-		// String s=new String("13+62*7+*");
 		String s=new String("*7*8*");
 		int ans= solution(s);
 		System.out.println(ans);
