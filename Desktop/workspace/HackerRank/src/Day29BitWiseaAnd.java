@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-
+//Day 29 HackerRank Challenge
 public class Day29BitWiseaAnd {
 
 	public static void main(String[] args) {
